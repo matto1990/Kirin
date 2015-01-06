@@ -1,18 +1,14 @@
 {
     "predef": [
-        "jasmine",
-        "spyOn",
-        "it",
         "console",
-        "describe",
-        "expect",
-        "beforeEach",
-        "waits",
-        "waitsFor",
-        "runs"
+        "window",
+        "document",
+        "JavaProxyObject",
+        "xtag"
     ],
     "node": true,
     "bitwise": true,
+    "indent": 2,
     "curly": true,
     "eqeqeq": true,
     "forin": true,
@@ -22,7 +18,7 @@
     "noarg": true,
     "nonew": true,
     "plusplus": false,
-    "regexp": true,
+    "regexp": false,
     "undef": true,
     "strict": false,
     "trailing": false,

@@ -15,38 +15,38 @@
 */
 
 var strings = ["smallest", "still small", "small", "medium", "big", "bigger", "huge", "giant", "quite big", "biggest"],
-	counter = strings.length - 1,
-	theScreen;
+  counter = strings.length - 1,
+  theScreen;
 
 
 exports.onLoad = function (ui) {
-	theScreen = ui;
+  theScreen = ui;
 };
 
 exports.onUnload = function () {
-    theScreen = null;
+  theScreen = null;
 };
 
 exports.onResume = function () {
-	console.log("Resuming " + __filename);
+  console.log("Resuming " + __filename);
 };
 
 exports.onPause = function () {
-    // NOOP
+  // NOOP
 };
 
 exports.onDumbButtonClick = function () {
-	if (counter >= (strings.length - 1)) {
-		counter = 0;
-	} else {
-		counter ++;
-	}
+  if (counter >= (strings.length - 1)) {
+    counter = 0;
+  } else {
+    counter ++;
+  }
 
-	theScreen.updateLabelSizeAndText(counter * 5 + 10, strings[counter]);
+  theScreen.updateLabelSizeAndText(counter * 5 + 10, strings[counter]);
 
-	return true;
+  return true;
 };
-	
+
 exports.onNextScreenButtonClick = function () {
-	theScreen.changeScreen(strings[counter]);
+  theScreen.changeScreen(strings[counter]);
 };
