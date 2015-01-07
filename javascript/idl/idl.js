@@ -10,8 +10,8 @@ module.exports = {
       }
     },
     "IDumbButtonScreenModule": {
-      implementedBy: "javascript", // || gwt
-      location: "button",
+      implementedBy: "javascript",
+      alias: 'dumb-button-screen',
       methods: {
         "onDumbButtonClick": [],
         "onNextScreenButtonClick": []
@@ -29,8 +29,8 @@ module.exports = {
       }
     },
     "IDumbListScreenModule": {
-      implementedBy: "javascript", // || gwt
-      location: "list",
+      implementedBy: "javascript",
+      alias: 'dumb-list-screen',
       methods: {
         "onListItemClick": [{index: "int"}, {label: "string"}]
       }

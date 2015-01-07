@@ -3,6 +3,7 @@
   "description": "A demonstration of the kirin project",
   "version": "0.0.1",
   "private": true,
+  "main": "./lib/application.js",
   "author": [
     {
       "name": "Future Platforms",
@@ -24,11 +25,19 @@
       "url": "https://github.com/KirinJS/Kirin/blob/master/LICENSE"
     }
   ],
+  "browserify": {
+    "transform": [
+      "brfs",
+      "overidify"
+    ]
+  },
+  "aliasify": "config/extensions.js",
   "dependencies": {
     "overidify": "jhugman/overidify",
     "underscore": "^1.7.0"
   },
   "devDependencies": {
+    "brfs": "^1.2.0",
     "browserify": "~3.14.1",
     "build-facets": "jhugman/build-facets",
     "grunt-browserify": "~1.3.0",

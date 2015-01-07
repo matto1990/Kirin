@@ -25,7 +25,7 @@ module.exports = function(grunt){
         files: {
           // should use '<%=dist.assemble%>'
           // the rest of the modules will be lazily discovered.
-          'build/assemble/app.min.js': ['lib/app/example-application.js']
+          'build/assemble/app.min.js': ['lib/application.js']
         },
       },
       options: {

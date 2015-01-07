@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9C6FBA11A5CA57600454DE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBA01A5CA57600454DE2 /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FBA41A5CA57600454DE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBA31A5CA57600454DE2 /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FBAC1A5CA57600454DE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9C6FBAB1A5CA57600454DE2 /* Images.xcassets */; };
+		C9C6FBAF1A5CA57600454DE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C6FBAD1A5CA57600454DE2 /* LaunchScreen.xib */; };
+		C9C6FBBB1A5CA57600454DE2 /* HelloKirinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBBA1A5CA57600454DE2 /* HelloKirinTests.m */; };
+		C9C6FBC81A5CA64A00454DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C6FBC51A5CA64A00454DE2 /* RootViewController.xib */; };
+		C9C6FBC91A5CA64A00454DE2 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBC71A5CA64A00454DE2 /* RootViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FBCF1A5CA65E00454DE2 /* DumbTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C6FBCB1A5CA65E00454DE2 /* DumbTableCell.xib */; };
+		C9C6FBD01A5CA65E00454DE2 /* DumbListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9C6FBCC1A5CA65E00454DE2 /* DumbListViewController.xib */; };
+		C9C6FBD11A5CA65E00454DE2 /* DumbListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBCE1A5CA65E00454DE2 /* DumbListViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC4E1A5CA77400454DE2 /* DebugConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBDA1A5CA77400454DE2 /* DebugConsole.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC4F1A5CA77400454DE2 /* JSContext.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBDC1A5CA77400454DE2 /* JSContext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC501A5CA77400454DE2 /* Kirin.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBDF1A5CA77400454DE2 /* Kirin.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC511A5CA77400454DE2 /* KirinAppDelegateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBE11A5CA77400454DE2 /* KirinAppDelegateHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC521A5CA77400454DE2 /* KirinArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBE31A5CA77400454DE2 /* KirinArgs.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC531A5CA77400454DE2 /* KirinDropbox.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBE51A5CA77400454DE2 /* KirinDropbox.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC541A5CA77400454DE2 /* KirinExtensionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBE71A5CA77400454DE2 /* KirinExtensionHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC551A5CA77400454DE2 /* KirinExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBEB1A5CA77400454DE2 /* KirinExtensions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC561A5CA77400454DE2 /* KirinExtensionStub.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBED1A5CA77400454DE2 /* KirinExtensionStub.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC571A5CA77400454DE2 /* KirinFileSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBEF1A5CA77400454DE2 /* KirinFileSystem.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC581A5CA77400454DE2 /* KirinHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBF11A5CA77400454DE2 /* KirinHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC591A5CA77400454DE2 /* KirinPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBF51A5CA77400454DE2 /* KirinPaths.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC5A1A5CA77400454DE2 /* KirinProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBF71A5CA77400454DE2 /* KirinProxy.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC5B1A5CA77400454DE2 /* KirinProxyWithDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBF91A5CA77400454DE2 /* KirinProxyWithDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC5C1A5CA77400454DE2 /* KirinProxyWithEmptyDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBFB1A5CA77400454DE2 /* KirinProxyWithEmptyDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC5D1A5CA77400454DE2 /* KirinProxyWithModule.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBFD1A5CA77400454DE2 /* KirinProxyWithModule.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC5E1A5CA77400454DE2 /* KirinScreenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FBFF1A5CA77400454DE2 /* KirinScreenHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC5F1A5CA77400454DE2 /* KirinState.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC011A5CA77400454DE2 /* KirinState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC601A5CA77400454DE2 /* KirinUiFragmentHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC031A5CA77400454DE2 /* KirinUiFragmentHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC611A5CA77400454DE2 /* KirinUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC051A5CA77400454DE2 /* KirinUITableViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC621A5CA77400454DE2 /* KirinUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC071A5CA77400454DE2 /* KirinUIViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC631A5CA77400454DE2 /* KirinWebViewHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC091A5CA77400454DE2 /* KirinWebViewHolder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC641A5CA77400454DE2 /* NativeContext.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC0B1A5CA77400454DE2 /* NativeContext.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC651A5CA77400454DE2 /* NativeObjectHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC0E1A5CA77400454DE2 /* NativeObjectHolder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC761A5CA77400454DE2 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC3D1A5CA77400454DE2 /* NSObject+JSON.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC771A5CA77400454DE2 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC3F1A5CA77400454DE2 /* SBJsonParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC781A5CA77400454DE2 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC411A5CA77400454DE2 /* SBJsonStreamParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC791A5CA77400454DE2 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC431A5CA77400454DE2 /* SBJsonStreamParserAdapter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC7A1A5CA77400454DE2 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC451A5CA77400454DE2 /* SBJsonStreamParserState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC7B1A5CA77400454DE2 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC471A5CA77400454DE2 /* SBJsonStreamWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC7C1A5CA77400454DE2 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC491A5CA77400454DE2 /* SBJsonStreamWriterState.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC7D1A5CA77400454DE2 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC4B1A5CA77400454DE2 /* SBJsonTokeniser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC7E1A5CA77400454DE2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C6FC4D1A5CA77400454DE2 /* SBJsonWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C9C6FC891A5CAA0000454DE2 /* app.min.js in Resources */ = {isa = PBXBuildFile; fileRef = C9C6FC871A5CAA0000454DE2 /* app.min.js */; };
+		C9C6FC8A1A5CAA0000454DE2 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = C9C6FC881A5CAA0000454DE2 /* index.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9C6FBB51A5CA57600454DE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C6FB931A5CA57600454DE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C6FB9A1A5CA57600454DE2;
+			remoteInfo = HelloKirin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9C6FB9B1A5CA57600454DE2 /* HelloKirin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloKirin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C6FB9F1A5CA57600454DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C6FBA01A5CA57600454DE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9C6FBA21A5CA57600454DE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9C6FBA31A5CA57600454DE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9C6FBAB1A5CA57600454DE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C9C6FBAE1A5CA57600454DE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C9C6FBB41A5CA57600454DE2 /* HelloKirinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloKirinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C6FBB91A5CA57600454DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9C6FBBA1A5CA57600454DE2 /* HelloKirinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloKirinTests.m; sourceTree = "<group>"; };
+		C9C6FBC51A5CA64A00454DE2 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		C9C6FBC61A5CA64A00454DE2 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C9C6FBC71A5CA64A00454DE2 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C9C6FBCB1A5CA65E00454DE2 /* DumbTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DumbTableCell.xib; sourceTree = "<group>"; };
+		C9C6FBCC1A5CA65E00454DE2 /* DumbListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DumbListViewController.xib; sourceTree = "<group>"; };
+		C9C6FBCD1A5CA65E00454DE2 /* DumbListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DumbListViewController.h; sourceTree = "<group>"; };
+		C9C6FBCE1A5CA65E00454DE2 /* DumbListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DumbListViewController.m; sourceTree = "<group>"; };
+		C9C6FBD91A5CA77400454DE2 /* DebugConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugConsole.h; sourceTree = "<group>"; };
+		C9C6FBDA1A5CA77400454DE2 /* DebugConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugConsole.m; sourceTree = "<group>"; };
+		C9C6FBDB1A5CA77400454DE2 /* JSContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSContext.h; sourceTree = "<group>"; };
+		C9C6FBDC1A5CA77400454DE2 /* JSContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSContext.m; sourceTree = "<group>"; };
+		C9C6FBDD1A5CA77400454DE2 /* JSExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSExecutor.h; sourceTree = "<group>"; };
+		C9C6FBDE1A5CA77400454DE2 /* Kirin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kirin.h; sourceTree = "<group>"; };
+		C9C6FBDF1A5CA77400454DE2 /* Kirin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kirin.m; sourceTree = "<group>"; };
+		C9C6FBE01A5CA77400454DE2 /* KirinAppDelegateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinAppDelegateHelper.h; sourceTree = "<group>"; };
+		C9C6FBE11A5CA77400454DE2 /* KirinAppDelegateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinAppDelegateHelper.m; sourceTree = "<group>"; };
+		C9C6FBE21A5CA77400454DE2 /* KirinArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinArgs.h; sourceTree = "<group>"; };
+		C9C6FBE31A5CA77400454DE2 /* KirinArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinArgs.m; sourceTree = "<group>"; };
+		C9C6FBE41A5CA77400454DE2 /* KirinDropbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinDropbox.h; sourceTree = "<group>"; };
+		C9C6FBE51A5CA77400454DE2 /* KirinDropbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinDropbox.m; sourceTree = "<group>"; };
+		C9C6FBE61A5CA77400454DE2 /* KirinExtensionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinExtensionHelper.h; sourceTree = "<group>"; };
+		C9C6FBE71A5CA77400454DE2 /* KirinExtensionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinExtensionHelper.m; sourceTree = "<group>"; };
+		C9C6FBE81A5CA77400454DE2 /* KirinExtensionOnMainThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinExtensionOnMainThread.h; sourceTree = "<group>"; };
+		C9C6FBE91A5CA77400454DE2 /* KirinExtensionProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinExtensionProtocol.h; sourceTree = "<group>"; };
+		C9C6FBEA1A5CA77400454DE2 /* KirinExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinExtensions.h; sourceTree = "<group>"; };
+		C9C6FBEB1A5CA77400454DE2 /* KirinExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinExtensions.m; sourceTree = "<group>"; };
+		C9C6FBEC1A5CA77400454DE2 /* KirinExtensionStub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinExtensionStub.h; sourceTree = "<group>"; };
+		C9C6FBED1A5CA77400454DE2 /* KirinExtensionStub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinExtensionStub.m; sourceTree = "<group>"; };
+		C9C6FBEE1A5CA77400454DE2 /* KirinFileSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinFileSystem.h; sourceTree = "<group>"; };
+		C9C6FBEF1A5CA77400454DE2 /* KirinFileSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinFileSystem.m; sourceTree = "<group>"; };
+		C9C6FBF01A5CA77400454DE2 /* KirinHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinHelper.h; sourceTree = "<group>"; };
+		C9C6FBF11A5CA77400454DE2 /* KirinHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinHelper.m; sourceTree = "<group>"; };
+		C9C6FBF21A5CA77400454DE2 /* KirinKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinKit.h; sourceTree = "<group>"; };
+		C9C6FBF31A5CA77400454DE2 /* KirinKitUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinKitUI.h; sourceTree = "<group>"; };
+		C9C6FBF41A5CA77400454DE2 /* KirinPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinPaths.h; sourceTree = "<group>"; };
+		C9C6FBF51A5CA77400454DE2 /* KirinPaths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinPaths.m; sourceTree = "<group>"; };
+		C9C6FBF61A5CA77400454DE2 /* KirinProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinProxy.h; sourceTree = "<group>"; };
+		C9C6FBF71A5CA77400454DE2 /* KirinProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinProxy.m; sourceTree = "<group>"; };
+		C9C6FBF81A5CA77400454DE2 /* KirinProxyWithDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinProxyWithDictionary.h; sourceTree = "<group>"; };
+		C9C6FBF91A5CA77400454DE2 /* KirinProxyWithDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinProxyWithDictionary.m; sourceTree = "<group>"; };
+		C9C6FBFA1A5CA77400454DE2 /* KirinProxyWithEmptyDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinProxyWithEmptyDictionary.h; sourceTree = "<group>"; };
+		C9C6FBFB1A5CA77400454DE2 /* KirinProxyWithEmptyDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinProxyWithEmptyDictionary.m; sourceTree = "<group>"; };
+		C9C6FBFC1A5CA77400454DE2 /* KirinProxyWithModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinProxyWithModule.h; sourceTree = "<group>"; };
+		C9C6FBFD1A5CA77400454DE2 /* KirinProxyWithModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinProxyWithModule.m; sourceTree = "<group>"; };
+		C9C6FBFE1A5CA77400454DE2 /* KirinScreenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinScreenHelper.h; sourceTree = "<group>"; };
+		C9C6FBFF1A5CA77400454DE2 /* KirinScreenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinScreenHelper.m; sourceTree = "<group>"; };
+		C9C6FC001A5CA77400454DE2 /* KirinState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinState.h; sourceTree = "<group>"; };
+		C9C6FC011A5CA77400454DE2 /* KirinState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinState.m; sourceTree = "<group>"; };
+		C9C6FC021A5CA77400454DE2 /* KirinUiFragmentHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinUiFragmentHelper.h; sourceTree = "<group>"; };
+		C9C6FC031A5CA77400454DE2 /* KirinUiFragmentHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinUiFragmentHelper.m; sourceTree = "<group>"; };
+		C9C6FC041A5CA77400454DE2 /* KirinUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinUITableViewController.h; sourceTree = "<group>"; };
+		C9C6FC051A5CA77400454DE2 /* KirinUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinUITableViewController.m; sourceTree = "<group>"; };
+		C9C6FC061A5CA77400454DE2 /* KirinUIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinUIViewController.h; sourceTree = "<group>"; };
+		C9C6FC071A5CA77400454DE2 /* KirinUIViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinUIViewController.m; sourceTree = "<group>"; };
+		C9C6FC081A5CA77400454DE2 /* KirinWebViewHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KirinWebViewHolder.h; sourceTree = "<group>"; };
+		C9C6FC091A5CA77400454DE2 /* KirinWebViewHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KirinWebViewHolder.m; sourceTree = "<group>"; };
+		C9C6FC0A1A5CA77400454DE2 /* NativeContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeContext.h; sourceTree = "<group>"; };
+		C9C6FC0B1A5CA77400454DE2 /* NativeContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeContext.m; sourceTree = "<group>"; };
+		C9C6FC0C1A5CA77400454DE2 /* NativeExecutor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeExecutor.h; sourceTree = "<group>"; };
+		C9C6FC0D1A5CA77400454DE2 /* NativeObjectHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeObjectHolder.h; sourceTree = "<group>"; };
+		C9C6FC0E1A5CA77400454DE2 /* NativeObjectHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeObjectHolder.m; sourceTree = "<group>"; };
+		C9C6FC0F1A5CA77400454DE2 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		C9C6FC3B1A5CA77400454DE2 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		C9C6FC3C1A5CA77400454DE2 /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
+		C9C6FC3D1A5CA77400454DE2 /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		C9C6FC3E1A5CA77400454DE2 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		C9C6FC3F1A5CA77400454DE2 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		C9C6FC401A5CA77400454DE2 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		C9C6FC411A5CA77400454DE2 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		C9C6FC421A5CA77400454DE2 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		C9C6FC431A5CA77400454DE2 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		C9C6FC441A5CA77400454DE2 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		C9C6FC451A5CA77400454DE2 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		C9C6FC461A5CA77400454DE2 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		C9C6FC471A5CA77400454DE2 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		C9C6FC481A5CA77400454DE2 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		C9C6FC491A5CA77400454DE2 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		C9C6FC4A1A5CA77400454DE2 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		C9C6FC4B1A5CA77400454DE2 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		C9C6FC4C1A5CA77400454DE2 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		C9C6FC4D1A5CA77400454DE2 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		C9C6FC811A5CAA0000454DE2 /* IDumbButtonScreenModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDumbButtonScreenModule.h; sourceTree = "<group>"; };
+		C9C6FC821A5CAA0000454DE2 /* IDumbButtonScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDumbButtonScreen.h; sourceTree = "<group>"; };
+		C9C6FC831A5CAA0000454DE2 /* IDumbListScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDumbListScreen.h; sourceTree = "<group>"; };
+		C9C6FC851A5CAA0000454DE2 /* IDumbListScreenModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDumbListScreenModule.h; sourceTree = "<group>"; };
+		C9C6FC871A5CAA0000454DE2 /* app.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = app.min.js; sourceTree = "<group>"; };
+		C9C6FC881A5CAA0000454DE2 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C6FB981A5CA57600454DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C6FBB11A5CA57600454DE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9C6FB921A5CA57600454DE2 = {
+			isa = PBXGroup;
+			children = (
+				C9C6FB9D1A5CA57600454DE2 /* HelloKirin */,
+				C9C6FBD51A5CA71800454DE2 /* Kirin */,
+				C9C6FBB71A5CA57600454DE2 /* HelloKirinTests */,
+				C9C6FB9C1A5CA57600454DE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C6FB9C1A5CA57600454DE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FB9B1A5CA57600454DE2 /* HelloKirin.app */,
+				C9C6FBB41A5CA57600454DE2 /* HelloKirinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C6FB9D1A5CA57600454DE2 /* HelloKirin */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FBA21A5CA57600454DE2 /* AppDelegate.h */,
+				C9C6FBA31A5CA57600454DE2 /* AppDelegate.m */,
+				C9C6FBD41A5CA68E00454DE2 /* Assets */,
+				C9C6FB9E1A5CA57600454DE2 /* Supporting Files */,
+				C9C6FBC41A5CA63600454DE2 /* Views */,
+			);
+			path = HelloKirin;
+			sourceTree = "<group>";
+		};
+		C9C6FB9E1A5CA57600454DE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FB9F1A5CA57600454DE2 /* Info.plist */,
+				C9C6FBA01A5CA57600454DE2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9C6FBB71A5CA57600454DE2 /* HelloKirinTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FBBA1A5CA57600454DE2 /* HelloKirinTests.m */,
+				C9C6FBB81A5CA57600454DE2 /* Supporting Files */,
+			);
+			path = HelloKirinTests;
+			sourceTree = "<group>";
+		};
+		C9C6FBB81A5CA57600454DE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FBB91A5CA57600454DE2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9C6FBC41A5CA63600454DE2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FBCA1A5CA64F00454DE2 /* Root */,
+				C9C6FBD31A5CA66F00454DE2 /* Dumb List View */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C9C6FBCA1A5CA64F00454DE2 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FBC51A5CA64A00454DE2 /* RootViewController.xib */,
+				C9C6FBC61A5CA64A00454DE2 /* RootViewController.h */,
+				C9C6FBC71A5CA64A00454DE2 /* RootViewController.m */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		C9C6FBD31A5CA66F00454DE2 /* Dumb List View */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FBCD1A5CA65E00454DE2 /* DumbListViewController.h */,
+				C9C6FBCE1A5CA65E00454DE2 /* DumbListViewController.m */,
+				C9C6FBCC1A5CA65E00454DE2 /* DumbListViewController.xib */,
+				C9C6FBCB1A5CA65E00454DE2 /* DumbTableCell.xib */,
+			);
+			name = "Dumb List View";
+			sourceTree = "<group>";
+		};
+		C9C6FBD41A5CA68E00454DE2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FBAB1A5CA57600454DE2 /* Images.xcassets */,
+				C9C6FBAD1A5CA57600454DE2 /* LaunchScreen.xib */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		C9C6FBD51A5CA71800454DE2 /* Kirin */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FBD61A5CA72800454DE2 /* KirinKit */,
+				C9C6FBD71A5CA73100454DE2 /* Generated */,
+			);
+			name = Kirin;
+			sourceTree = "<group>";
+		};
+		C9C6FBD61A5CA72800454DE2 /* KirinKit */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FBD81A5CA77400454DE2 /* Core */,
+				C9C6FC3A1A5CA77400454DE2 /* JSON */,
+			);
+			name = KirinKit;
+			sourceTree = "<group>";
+		};
+		C9C6FBD71A5CA73100454DE2 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FC7F1A5CAA0000454DE2 /* generated-ios */,
+				C9C6FC861A5CAA0000454DE2 /* generated-javascript */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		C9C6FBD81A5CA77400454DE2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FBD91A5CA77400454DE2 /* DebugConsole.h */,
+				C9C6FBDA1A5CA77400454DE2 /* DebugConsole.m */,
+				C9C6FBDB1A5CA77400454DE2 /* JSContext.h */,
+				C9C6FBDC1A5CA77400454DE2 /* JSContext.m */,
+				C9C6FBDD1A5CA77400454DE2 /* JSExecutor.h */,
+				C9C6FBDE1A5CA77400454DE2 /* Kirin.h */,
+				C9C6FBDF1A5CA77400454DE2 /* Kirin.m */,
+				C9C6FBE01A5CA77400454DE2 /* KirinAppDelegateHelper.h */,
+				C9C6FBE11A5CA77400454DE2 /* KirinAppDelegateHelper.m */,
+				C9C6FBE21A5CA77400454DE2 /* KirinArgs.h */,
+				C9C6FBE31A5CA77400454DE2 /* KirinArgs.m */,
+				C9C6FBE41A5CA77400454DE2 /* KirinDropbox.h */,
+				C9C6FBE51A5CA77400454DE2 /* KirinDropbox.m */,
+				C9C6FBE61A5CA77400454DE2 /* KirinExtensionHelper.h */,
+				C9C6FBE71A5CA77400454DE2 /* KirinExtensionHelper.m */,
+				C9C6FBE81A5CA77400454DE2 /* KirinExtensionOnMainThread.h */,
+				C9C6FBE91A5CA77400454DE2 /* KirinExtensionProtocol.h */,
+				C9C6FBEA1A5CA77400454DE2 /* KirinExtensions.h */,
+				C9C6FBEB1A5CA77400454DE2 /* KirinExtensions.m */,
+				C9C6FBEC1A5CA77400454DE2 /* KirinExtensionStub.h */,
+				C9C6FBED1A5CA77400454DE2 /* KirinExtensionStub.m */,
+				C9C6FBEE1A5CA77400454DE2 /* KirinFileSystem.h */,
+				C9C6FBEF1A5CA77400454DE2 /* KirinFileSystem.m */,
+				C9C6FBF01A5CA77400454DE2 /* KirinHelper.h */,
+				C9C6FBF11A5CA77400454DE2 /* KirinHelper.m */,
+				C9C6FBF21A5CA77400454DE2 /* KirinKit.h */,
+				C9C6FBF31A5CA77400454DE2 /* KirinKitUI.h */,
+				C9C6FBF41A5CA77400454DE2 /* KirinPaths.h */,
+				C9C6FBF51A5CA77400454DE2 /* KirinPaths.m */,
+				C9C6FBF61A5CA77400454DE2 /* KirinProxy.h */,
+				C9C6FBF71A5CA77400454DE2 /* KirinProxy.m */,
+				C9C6FBF81A5CA77400454DE2 /* KirinProxyWithDictionary.h */,
+				C9C6FBF91A5CA77400454DE2 /* KirinProxyWithDictionary.m */,
+				C9C6FBFA1A5CA77400454DE2 /* KirinProxyWithEmptyDictionary.h */,
+				C9C6FBFB1A5CA77400454DE2 /* KirinProxyWithEmptyDictionary.m */,
+				C9C6FBFC1A5CA77400454DE2 /* KirinProxyWithModule.h */,
+				C9C6FBFD1A5CA77400454DE2 /* KirinProxyWithModule.m */,
+				C9C6FBFE1A5CA77400454DE2 /* KirinScreenHelper.h */,
+				C9C6FBFF1A5CA77400454DE2 /* KirinScreenHelper.m */,
+				C9C6FC001A5CA77400454DE2 /* KirinState.h */,
+				C9C6FC011A5CA77400454DE2 /* KirinState.m */,
+				C9C6FC021A5CA77400454DE2 /* KirinUiFragmentHelper.h */,
+				C9C6FC031A5CA77400454DE2 /* KirinUiFragmentHelper.m */,
+				C9C6FC041A5CA77400454DE2 /* KirinUITableViewController.h */,
+				C9C6FC051A5CA77400454DE2 /* KirinUITableViewController.m */,
+				C9C6FC061A5CA77400454DE2 /* KirinUIViewController.h */,
+				C9C6FC071A5CA77400454DE2 /* KirinUIViewController.m */,
+				C9C6FC081A5CA77400454DE2 /* KirinWebViewHolder.h */,
+				C9C6FC091A5CA77400454DE2 /* KirinWebViewHolder.m */,
+				C9C6FC0A1A5CA77400454DE2 /* NativeContext.h */,
+				C9C6FC0B1A5CA77400454DE2 /* NativeContext.m */,
+				C9C6FC0C1A5CA77400454DE2 /* NativeExecutor.h */,
+				C9C6FC0D1A5CA77400454DE2 /* NativeObjectHolder.h */,
+				C9C6FC0E1A5CA77400454DE2 /* NativeObjectHolder.m */,
+				C9C6FC0F1A5CA77400454DE2 /* SynthesizeSingleton.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C9C6FC3A1A5CA77400454DE2 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FC3B1A5CA77400454DE2 /* JSON.h */,
+				C9C6FC3C1A5CA77400454DE2 /* NSObject+JSON.h */,
+				C9C6FC3D1A5CA77400454DE2 /* NSObject+JSON.m */,
+				C9C6FC3E1A5CA77400454DE2 /* SBJsonParser.h */,
+				C9C6FC3F1A5CA77400454DE2 /* SBJsonParser.m */,
+				C9C6FC401A5CA77400454DE2 /* SBJsonStreamParser.h */,
+				C9C6FC411A5CA77400454DE2 /* SBJsonStreamParser.m */,
+				C9C6FC421A5CA77400454DE2 /* SBJsonStreamParserAdapter.h */,
+				C9C6FC431A5CA77400454DE2 /* SBJsonStreamParserAdapter.m */,
+				C9C6FC441A5CA77400454DE2 /* SBJsonStreamParserState.h */,
+				C9C6FC451A5CA77400454DE2 /* SBJsonStreamParserState.m */,
+				C9C6FC461A5CA77400454DE2 /* SBJsonStreamWriter.h */,
+				C9C6FC471A5CA77400454DE2 /* SBJsonStreamWriter.m */,
+				C9C6FC481A5CA77400454DE2 /* SBJsonStreamWriterState.h */,
+				C9C6FC491A5CA77400454DE2 /* SBJsonStreamWriterState.m */,
+				C9C6FC4A1A5CA77400454DE2 /* SBJsonTokeniser.h */,
+				C9C6FC4B1A5CA77400454DE2 /* SBJsonTokeniser.m */,
+				C9C6FC4C1A5CA77400454DE2 /* SBJsonWriter.h */,
+				C9C6FC4D1A5CA77400454DE2 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		C9C6FC7F1A5CAA0000454DE2 /* generated-ios */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FC801A5CAA0000454DE2 /* button */,
+				C9C6FC821A5CAA0000454DE2 /* IDumbButtonScreen.h */,
+				C9C6FC831A5CAA0000454DE2 /* IDumbListScreen.h */,
+				C9C6FC841A5CAA0000454DE2 /* list */,
+			);
+			path = "generated-ios";
+			sourceTree = "<group>";
+		};
+		C9C6FC801A5CAA0000454DE2 /* button */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FC811A5CAA0000454DE2 /* IDumbButtonScreenModule.h */,
+			);
+			path = button;
+			sourceTree = "<group>";
+		};
+		C9C6FC841A5CAA0000454DE2 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FC851A5CAA0000454DE2 /* IDumbListScreenModule.h */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
+		C9C6FC861A5CAA0000454DE2 /* generated-javascript */ = {
+			isa = PBXGroup;
+			children = (
+				C9C6FC871A5CAA0000454DE2 /* app.min.js */,
+				C9C6FC881A5CAA0000454DE2 /* index.html */,
+			);
+			path = "generated-javascript";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9C6FB9A1A5CA57600454DE2 /* HelloKirin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C6FBBE1A5CA57600454DE2 /* Build configuration list for PBXNativeTarget "HelloKirin" */;
+			buildPhases = (
+				C9C6FB971A5CA57600454DE2 /* Sources */,
+				C9C6FB981A5CA57600454DE2 /* Frameworks */,
+				C9C6FB991A5CA57600454DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloKirin;
+			productName = HelloKirin;
+			productReference = C9C6FB9B1A5CA57600454DE2 /* HelloKirin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9C6FBB31A5CA57600454DE2 /* HelloKirinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C6FBC11A5CA57600454DE2 /* Build configuration list for PBXNativeTarget "HelloKirinTests" */;
+			buildPhases = (
+				C9C6FBB01A5CA57600454DE2 /* Sources */,
+				C9C6FBB11A5CA57600454DE2 /* Frameworks */,
+				C9C6FBB21A5CA57600454DE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C6FBB61A5CA57600454DE2 /* PBXTargetDependency */,
+			);
+			name = HelloKirinTests;
+			productName = HelloKirinTests;
+			productReference = C9C6FBB41A5CA57600454DE2 /* HelloKirinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C6FB931A5CA57600454DE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Kirin;
+				TargetAttributes = {
+					C9C6FB9A1A5CA57600454DE2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C9C6FBB31A5CA57600454DE2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C9C6FB9A1A5CA57600454DE2;
+					};
+				};
+			};
+			buildConfigurationList = C9C6FB961A5CA57600454DE2 /* Build configuration list for PBXProject "HelloKirin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C9C6FB921A5CA57600454DE2;
+			productRefGroup = C9C6FB9C1A5CA57600454DE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C6FB9A1A5CA57600454DE2 /* HelloKirin */,
+				C9C6FBB31A5CA57600454DE2 /* HelloKirinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C6FB991A5CA57600454DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C6FC8A1A5CAA0000454DE2 /* index.html in Resources */,
+				C9C6FBAF1A5CA57600454DE2 /* LaunchScreen.xib in Resources */,
+				C9C6FBCF1A5CA65E00454DE2 /* DumbTableCell.xib in Resources */,
+				C9C6FBC81A5CA64A00454DE2 /* RootViewController.xib in Resources */,
+				C9C6FBD01A5CA65E00454DE2 /* DumbListViewController.xib in Resources */,
+				C9C6FC891A5CAA0000454DE2 /* app.min.js in Resources */,
+				C9C6FBAC1A5CA57600454DE2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C6FBB21A5CA57600454DE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C6FB971A5CA57600454DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C6FC7C1A5CA77400454DE2 /* SBJsonStreamWriterState.m in Sources */,
+				C9C6FC4F1A5CA77400454DE2 /* JSContext.m in Sources */,
+				C9C6FC611A5CA77400454DE2 /* KirinUITableViewController.m in Sources */,
+				C9C6FC551A5CA77400454DE2 /* KirinExtensions.m in Sources */,
+				C9C6FC5B1A5CA77400454DE2 /* KirinProxyWithDictionary.m in Sources */,
+				C9C6FC5A1A5CA77400454DE2 /* KirinProxy.m in Sources */,
+				C9C6FC5E1A5CA77400454DE2 /* KirinScreenHelper.m in Sources */,
+				C9C6FBD11A5CA65E00454DE2 /* DumbListViewController.m in Sources */,
+				C9C6FC521A5CA77400454DE2 /* KirinArgs.m in Sources */,
+				C9C6FC591A5CA77400454DE2 /* KirinPaths.m in Sources */,
+				C9C6FBA41A5CA57600454DE2 /* AppDelegate.m in Sources */,
+				C9C6FC531A5CA77400454DE2 /* KirinDropbox.m in Sources */,
+				C9C6FC7D1A5CA77400454DE2 /* SBJsonTokeniser.m in Sources */,
+				C9C6FC651A5CA77400454DE2 /* NativeObjectHolder.m in Sources */,
+				C9C6FC571A5CA77400454DE2 /* KirinFileSystem.m in Sources */,
+				C9C6FC541A5CA77400454DE2 /* KirinExtensionHelper.m in Sources */,
+				C9C6FC641A5CA77400454DE2 /* NativeContext.m in Sources */,
+				C9C6FBC91A5CA64A00454DE2 /* RootViewController.m in Sources */,
+				C9C6FC5C1A5CA77400454DE2 /* KirinProxyWithEmptyDictionary.m in Sources */,
+				C9C6FC631A5CA77400454DE2 /* KirinWebViewHolder.m in Sources */,
+				C9C6FC781A5CA77400454DE2 /* SBJsonStreamParser.m in Sources */,
+				C9C6FC621A5CA77400454DE2 /* KirinUIViewController.m in Sources */,
+				C9C6FC7E1A5CA77400454DE2 /* SBJsonWriter.m in Sources */,
+				C9C6FC7A1A5CA77400454DE2 /* SBJsonStreamParserState.m in Sources */,
+				C9C6FC7B1A5CA77400454DE2 /* SBJsonStreamWriter.m in Sources */,
+				C9C6FC511A5CA77400454DE2 /* KirinAppDelegateHelper.m in Sources */,
+				C9C6FBA11A5CA57600454DE2 /* main.m in Sources */,
+				C9C6FC601A5CA77400454DE2 /* KirinUiFragmentHelper.m in Sources */,
+				C9C6FC501A5CA77400454DE2 /* Kirin.m in Sources */,
+				C9C6FC5F1A5CA77400454DE2 /* KirinState.m in Sources */,
+				C9C6FC771A5CA77400454DE2 /* SBJsonParser.m in Sources */,
+				C9C6FC561A5CA77400454DE2 /* KirinExtensionStub.m in Sources */,
+				C9C6FC581A5CA77400454DE2 /* KirinHelper.m in Sources */,
+				C9C6FC5D1A5CA77400454DE2 /* KirinProxyWithModule.m in Sources */,
+				C9C6FC761A5CA77400454DE2 /* NSObject+JSON.m in Sources */,
+				C9C6FC4E1A5CA77400454DE2 /* DebugConsole.m in Sources */,
+				C9C6FC791A5CA77400454DE2 /* SBJsonStreamParserAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C6FBB01A5CA57600454DE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C6FBBB1A5CA57600454DE2 /* HelloKirinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9C6FBB61A5CA57600454DE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C6FB9A1A5CA57600454DE2 /* HelloKirin */;
+			targetProxy = C9C6FBB51A5CA57600454DE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9C6FBAD1A5CA57600454DE2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C6FBAE1A5CA57600454DE2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9C6FBBC1A5CA57600454DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9C6FBBD1A5CA57600454DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9C6FBBF1A5CA57600454DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloKirin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9C6FBC01A5CA57600454DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloKirin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C9C6FBC21A5CA57600454DE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloKirinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloKirin.app/HelloKirin";
+			};
+			name = Debug;
+		};
+		C9C6FBC31A5CA57600454DE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloKirinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloKirin.app/HelloKirin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C6FB961A5CA57600454DE2 /* Build configuration list for PBXProject "HelloKirin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C6FBBC1A5CA57600454DE2 /* Debug */,
+				C9C6FBBD1A5CA57600454DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C6FBBE1A5CA57600454DE2 /* Build configuration list for PBXNativeTarget "HelloKirin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C6FBBF1A5CA57600454DE2 /* Debug */,
+				C9C6FBC01A5CA57600454DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C6FBC11A5CA57600454DE2 /* Build configuration list for PBXNativeTarget "HelloKirinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C6FBC21A5CA57600454DE2 /* Debug */,
+				C9C6FBC31A5CA57600454DE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C6FB931A5CA57600454DE2 /* Project object */;
+}
